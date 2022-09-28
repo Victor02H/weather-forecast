@@ -1,0 +1,87 @@
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 62px;
+  letter-spacing: 1px;
+}
+
+form {
+  /* width: 900px */
+  width: 71%;
+  display: flex;
+  justify-content: space-between;
+}
+
+form .search-container {
+  width: 70%;
+  position: relative;
+}
+
+form input[name='search-city'] {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  outline: none;
+}
+
+form input[name='search-city']::placeholder {
+  color: #fff;
+}
+
+form input[name='submit'] {
+  height: 45px;
+  position: absolute;
+  right: 0;
+  color: #ff1f42;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+
+
+form input[name='reset'] {
+  width: 25%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff1f42;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+
+form input[name='submit']:hover {
+  color: #fff;
+}
+
+form input[name='reset']:hover {
+  color: #ff1f42;
+  background-color: #fff;
+}
+
+.align-city-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-around;
+}
