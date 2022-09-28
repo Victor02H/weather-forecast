@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  h1 {
+    width: 80%;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  form {
+    width: 80%;
+    flex-direction: column;
+  }
+  
+  form input[name='search-city'] {
+    width: 100%;
+  }
+
+  form .search-container {
+    width: 100% !important;
+  }
+
+  form input[name='reset'] {
+    width: 100% !important;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .card-container {
+    margin-bottom: 30px;
+  }
+}
+
+
+
